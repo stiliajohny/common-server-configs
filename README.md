@@ -68,8 +68,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-- [Molecule](https://github.com/ansible-community/molecule) 
-- [Ansible](https://github.com/ansible-community?page=2) 
+- [Molecule](https://github.com/ansible-community/molecule)
+- [Ansible](https://github.com/ansible-community)
 
 
 
