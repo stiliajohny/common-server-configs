@@ -13,16 +13,16 @@
     <img src=".assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">[Project Name]</h3>
+  <h3 align="center">Common Server Configs</h3>
 
   <p align="center">
-    [Project short description]
+    This is an asnible role that configures basic files on a server such as MOTD , ISSUE and BashRC.
     <br />
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/stiliajohny/Repo-Template">View Demo</a>
-    ·
+    <!-- <a href="https://github.com/stiliajohny/Repo-Template">View Demo</a>
+    ·-->
     <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
     <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
@@ -33,7 +33,8 @@
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -49,7 +50,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./.assets/screenshot.png)
+[![motd][motd]](./.assets/motd.png)
 
 <!--
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
@@ -67,13 +68,10 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-<!--
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+- [Molecule](https://github.com/ansible-community/molecule) 
+- [Ansible](https://github.com/ansible-community?page=2) 
 
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
-- [Laravel](https://laravel.com)
--->
+
 
 ---
 
@@ -88,16 +86,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-<!--
+Install the following:
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
--->
+`$ pip3 install -user ansible`
+`$ pip3 install molecule`
 
 ### Installation
 
