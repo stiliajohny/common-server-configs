@@ -53,6 +53,12 @@
 <img src="./.assets/motd.png"  width="50%" height="50%">
 
  <img src="./.assets/ssh_banner.png"  height="200"><img src="./.assets/issue.net.png"  height="200"> 
+
+ <div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div> 
+
 <!--
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
@@ -161,7 +167,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gmail.com
+John Stilia   - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gmail.com
 
 <!--
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)

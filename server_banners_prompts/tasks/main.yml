@@ -1,0 +1,23 @@
+---
+- name: Run install tasks
+  include_tasks: "{{ item }}"
+  with_first_found:
+    - "{{ ansible_distribution_release | lower }}.yml"
+    - "{{ ansible_distribution | lower }}-{{ ansible_distribution_version | lower }}.yml"
+    - "{{ ansible_distribution | lower }}-{{ ansible_distribution_major_version | lower }}.yml"
+    - "{{ ansible_os_family | lower }}-{{ ansible_distribution_major_version | lower }}.yml"
+    - "{{ ansible_distribution | lower }}.yml"
+    - "{{ ansible_os_family | lower }}.yml"
+
+- name: Enable ssh banner
+  lineinfile:
+    path: '/etc/ssh/sshd_config'
+    regexp: '^#Banner'
+    line: 'Banner /etc/banner'
+  become: true
+
+- name: Copy banner
+  copy:
+    src: issue.net
+    dest: /etc/banner
+  become: true
