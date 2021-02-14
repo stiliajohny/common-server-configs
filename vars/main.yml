@@ -1,0 +1,10 @@
+---
+# vars file for common-server-configs
+
+docker: false
+services:
+  - docker
+  - sshd
+  - prometheus
+  - loki
+  - node_exporter
