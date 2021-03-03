@@ -1,4 +1,4 @@
-Role Name
+Server Banners Prompts
 =========
 
 This role is created to copy the MOTD as well as some BashRC and ssh banners
@@ -21,7 +21,7 @@ Check the defaults for all necessary variables to be adjusted
 Dependencies
 ------------
 
-N/A
+- ansible
 
 Example Playbook
 ----------------
@@ -29,7 +29,7 @@ Example Playbook
 ```yaml
     - hosts: servers
       roles:
-         - { role: server_banner_prompts }
+         - { role: server_banners_prompts }
 ```
 
 License
