@@ -5,6 +5,3 @@ docker: false
 services:
   - docker
   - sshd
-  - prometheus
-  - loki
-  - node_exporter
