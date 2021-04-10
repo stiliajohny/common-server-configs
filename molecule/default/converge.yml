@@ -1,7 +1,0 @@
----
-- name: Converge
-  hosts: all
-  tasks:
-    - name: "Include server_banners_prompts"
-      include_role:
-        name: "server_banners_prompts"
