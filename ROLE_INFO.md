@@ -29,7 +29,7 @@ Example Playbook
 ```yaml
     - hosts: servers
       roles:
-         - { role: ansible-role-server_banners_prompts }
+         - { role: ansible-role-server-banners-prompts }
 ```
 
 License

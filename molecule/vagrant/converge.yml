@@ -2,6 +2,6 @@
 - name: Converge
   hosts: all
   tasks:
-    - name: "Include role {{ cookiecutter.role_name |lower|replace(' ', '_')}}"
+    - name: "Include role ansible-role-server-banners-prompts"
       include_role:
-        name: {{ cookiecutter.role_name|lower|replace(' ', '_') }}
+        name: ansible-role-server-banners-prompts

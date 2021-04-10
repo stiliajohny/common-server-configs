@@ -1,5 +1,5 @@
 ---
-# defaults file for ansible-role-server_banners_prompts
+# defaults file for ansible-role-server-banners-prompts
 docker: false
 services:
   - sshd
