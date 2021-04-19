@@ -9,8 +9,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/stiliajohny/Repo-Template">
-    <img src=".assets/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts">
+    <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Common Server Configs</h3>
@@ -18,14 +18,11 @@
   <p align="center">
     This is an asnible role that configures basic files on a server such as MOTD , ISSUE and BashRC.
     <br />
-    <a href="./README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts/README.md"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <!-- <a href="https://github.com/stiliajohny/Repo-Template">View Demo</a>
-    ·-->
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -50,9 +47,9 @@
 
 ## About The Project
 
-<img src="./.assets/motd.png"  width="500" >
+<img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/motd.png"  width="500" >
 
- <img src="./.assets/ssh_banner.png"  width="500" >
+ <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/ssh_banner.png"  width="500" >
 
 
 ### Built With
@@ -82,7 +79,7 @@ Install the following:
 
 ### Installation
 
-Install the role following the instructions [here](./ROLE_INFO.md)
+Install the role following the instructions [here](https://github.com/stiliajohny/ansible-role-server-banners-prompts/ROLE_INFO.md)
 
 ---
 
@@ -102,7 +99,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/Repo-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/ansible-role-server-banners-prompts/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -149,16 +146,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/Repo-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/stiliajohny/Repo-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/stiliajohny/Repo-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/stiliajohny/Repo-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/stiliajohny/Repo-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/stiliajohny/Repo-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/stiliajohny/Repo-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/stiliajohny/Repo-Template/issues
-[license-shield]: https://img.shields.io/github/license/stiliajohny/Repo-Template?style=for-the-badge
-[license-url]: https://github.com/stiliajohny/Repo-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/ansible-role-server-banners-prompts.svg?style=for-the-badge
+[contributors-url]: https://github.com/stiliajohny/ansible-role-server-banners-prompts/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stiliajohny/ansible-role-server-banners-prompts.svg?style=for-the-badge
+[forks-url]: https://github.com/stiliajohny/ansible-role-server-banners-prompts/network/members
+[stars-shield]: https://img.shields.io/github/stars/stiliajohny/ansible-role-server-banners-prompts.svg?style=for-the-badge
+[stars-url]: https://github.com/stiliajohny/ansible-role-server-banners-prompts/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stiliajohny/ansible-role-server-banners-prompts.svg?style=for-the-badge
+[issues-url]: https://github.com/stiliajohny/ansible-role-server-banners-prompts/issues
+[license-shield]: https://img.shields.io/github/license/stiliajohny/ansible-role-server-banners-prompts?style=for-the-badge
+[license-url]: https://github.com/stiliajohny/ansible-role-server-banners-prompts/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
