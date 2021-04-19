@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts">
-    <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/raw/main/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Common Server Configs</h3>
@@ -47,9 +47,9 @@
 
 ## About The Project
 
-<img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/motd.png"  width="500" >
+<img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/raw/main/.assets/motd.png"  width="500" >
 
- <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/.assets/ssh_banner.png"  width="500" >
+ <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/raw/main/.assets/ssh_banner.png"  width="500" >
 
 
 ### Built With
