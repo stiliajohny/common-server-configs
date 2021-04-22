@@ -13,10 +13,10 @@
     <img src="https://github.com/stiliajohny/ansible-role-server-banners-prompts/raw/main/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Common Server Configs</h3>
+  <h3 align="center">Server Banners and MOTD</h3>
 
   <p align="center">
-    This is an asnible role that configures basic files on a server such as MOTD , ISSUE and BashRC.
+    This is an asnible role that configures basic files on a server such as MOTD, ISSUE and BashRC.
     <br />
     <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts/README.md"><strong>Explore the docs »</strong></a>
     <br />
