@@ -54,45 +54,36 @@
 
 ### Built With
 
-- [Molecule](https://github.com/ansible-community/molecule)
-- [Ansible](https://github.com/ansible-community)
-
-
+- Molecule
+- Ansible
 
 ---
-
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
-<!--
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
--->
 
 ### Prerequisites
 
-Install the following:
-
-`$ pip3 install -user ansible`<br>
-`$ pip3 install molecule`
+- Ansible
 
 ### Installation
 
-Install the role following the instructions [here](https://github.com/stiliajohny/ansible-role-server-banners-prompts/ROLE_INFO.md)
+```yaml
+    - hosts: servers
+      roles:
+         - { role: ansible-role-server-banners-prompts }
+```
 
 ---
 
-<!-- USAGE EXAMPLES -->
 
 ## Usage
 
-<!--
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
--->
-
+```yml
+docker: false
+services:
+  - sshd
+```
 ---
 
 <!-- ROADMAP -->
