@@ -16,7 +16,7 @@
   <h3 align="center">Server Banners and MOTD</h3>
 
   <p align="center">
-    This is an asnible role that configures basic files on a server such as MOTD, ISSUE and BashRC.
+    This is an ansible role to install a sick MOTD
     <br />
     <a href="https://github.com/stiliajohny/ansible-role-server-banners-prompts/README.md"><strong>Explore the docs »</strong></a>
     <br />
